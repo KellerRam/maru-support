@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MaruApp · Gestiona tu grupo de cuidado y protégelo ante emergencias</title>
+  <meta name="description" content="Descarga MaruApp para Android o iOS: coordina citas, medicación y cuidadores de tus pacientes y familiares, y actúa rápido ante emergencias.">
+  <meta name="theme-color" content="#d0f2f2">
+  <meta property="og:title" content="MaruApp · Descarga la app">
+  <meta property="og:description" content="Gestiona tu grupo de cuidado y protégelo ante emergencias.">
+  <meta property="og:image" content="img/HeaderMaruApp.png">
+  <link rel="icon" href="img/maru-phone.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="MaruApp, inicio">
+      <span class="brand__dot" aria-hidden="true"></span>MaruApp
+    </a>
+    <button class="btn-terms" type="button" data-open-terms aria-haspopup="dialog" aria-controls="terms-panel">
+      Términos y condiciones
+    </button>
+  </header>
+
+  <main id="inicio">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__text">
+        <p class="eyebrow">App para cuidadores y familias</p>
+        <h1>Gestiona tu grupo de cuidado y protégelo ante <span>emergencias.</span></h1>
+        <p class="lead">Citas médicas, medicación y turnos de cuidadores en un solo lugar, con un botón de emergencia siempre a la mano. Descarga MaruApp gratis.</p>
+
+        <div class="downloads" id="descargas">
+          <a class="store store--android" href="#" data-store="android" aria-label="Descargar MaruApp para Android">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.6 9.5l1.7-3a.35.35 0 00-.6-.35l-1.75 3A10.6 10.6 0 0012 8.1c-1.65 0-3.2.37-4.55 1.05l-1.75-3a.35.35 0 10-.6.35l1.7 3C3.9 11.2 2.2 13.9 2 17h20c-.2-3.1-1.9-5.8-4.4-7.5zM8 14.4a.9.9 0 110-1.8.9.9 0 010 1.8zm8 0a.9.9 0 110-1.8.9.9 0 010 1.8z"/></svg>
+            <span><small>Disponible en</small><strong>Android</strong></span>
+          </a>
+          <a class="store store--ios" href="#" data-store="ios" aria-label="Descargar MaruApp para iOS">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.7c0-2.4 2-3.5 2.1-3.6-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.15-2.9.9-3.7.9s-1.9-.85-3.1-.82a4.6 4.6 0 00-3.9 2.35c-1.7 2.9-.45 7.2 1.2 9.6.8 1.15 1.75 2.45 3 2.4 1.2-.05 1.65-.77 3.1-.77s1.85.77 3.1.75c1.3-.02 2.1-1.15 2.9-2.3a10 10 0 001.3-2.65c-.03-.02-2.5-.95-2.5-3.9zM14 5.6c.65-.8 1.1-1.9.97-3-.95.04-2.1.64-2.8 1.43-.6.7-1.15 1.85-1 2.9 1.05.08 2.15-.55 2.83-1.33z"/></svg>
+            <span><small>Descárgala en</small><strong>iOS</strong></span>
+          </a>
+        </div>
+        <p class="hint">Gratis · Datos protegidos · Solo mayores de 18 años</p>
+      </div>
+
+      <div class="hero__visual" aria-hidden="false">
+        <div class="blob blob--a"></div>
+        <div class="blob blob--b"></div>
+        <img class="phone" src="img/maru-phone.png" width="575" height="720" alt="Pantalla de MaruApp con la bienvenida a la Familia López, botón de emergencia, cita con oncólogo y próxima toma de medicamento">
+        <span class="chip chip--a">💊 Próxima toma 9:00 AM</span>
+        <span class="chip chip--b">🩺 Cita · 10 AM</span>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features" aria-labelledby="feat-title">
+      <h2 id="feat-title">Todo el cuidado, coordinado</h2>
+      <ul class="cards">
+        <li class="card">
+          <span class="card__icon" aria-hidden="true">🚨</span>
+          <h3>Botón de emergencia</h3>
+          <p>Avisa a tu grupo de cuidado de inmediato cuando más lo necesitas.</p>
+        </li>
+        <li class="card">
+          <span class="card__icon" aria-hidden="true">📅</span>
+          <h3>Citas y agenda</h3>
+          <p>Consulta de un vistazo las citas médicas del día y las próximas.</p>
+        </li>
+        <li class="card">
+          <span class="card__icon" aria-hidden="true">💊</span>
+          <h3>Medicación al día</h3>
+          <p>Recordatorios de cada toma con su dosis, sin olvidos.</p>
+        </li>
+        <li class="card">
+          <span class="card__icon" aria-hidden="true">👨‍👩‍👧</span>
+          <h3>Grupo de cuidado</h3>
+          <p>Define quién es el próximo cuidador y mantén informada a toda la familia.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta">
+      <h2>Empieza a cuidar con tranquilidad</h2>
+      <div class="downloads downloads--center">
+        <a class="store store--android" href="#" data-store="android" aria-label="Descargar MaruApp para Android">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.6 9.5l1.7-3a.35.35 0 00-.6-.35l-1.75 3A10.6 10.6 0 0012 8.1c-1.65 0-3.2.37-4.55 1.05l-1.75-3a.35.35 0 10-.6.35l1.7 3C3.9 11.2 2.2 13.9 2 17h20c-.2-3.1-1.9-5.8-4.4-7.5zM8 14.4a.9.9 0 110-1.8.9.9 0 010 1.8zm8 0a.9.9 0 110-1.8.9.9 0 010 1.8z"/></svg>
+          <span><small>Disponible en</small><strong>Android</strong></span>
+        </a>
+        <a class="store store--ios" href="#" data-store="ios" aria-label="Descargar MaruApp para iOS">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.7c0-2.4 2-3.5 2.1-3.6-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.15-2.9.9-3.7.9s-1.9-.85-3.1-.82a4.6 4.6 0 00-3.9 2.35c-1.7 2.9-.45 7.2 1.2 9.6.8 1.15 1.75 2.45 3 2.4 1.2-.05 1.65-.77 3.1-.77s1.85.77 3.1.75c1.3-.02 2.1-1.15 2.9-2.3a10 10 0 001.3-2.65c-.03-.02-2.5-.95-2.5-3.9zM14 5.6c.65-.8 1.1-1.9.97-3-.95.04-2.1.64-2.8 1.43-.6.7-1.15 1.85-1 2.9 1.05.08 2.15-.55 2.83-1.33z"/></svg>
+          <span><small>Descárgala en</small><strong>iOS</strong></span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> MaruApp · Salcajá, Quetzaltenango, Guatemala</p>
+    <p>
+      <button class="link-btn" type="button" data-open-terms>Términos y condiciones</button> ·
+      <a href="mailto:kramirezg20@miumg.edu.gt">Soporte</a>
+    </p>
+  </footer>
+
+  <!-- PANEL TÉRMINOS Y CONDICIONES -->
+  <div class="overlay" id="terms-overlay" hidden></div>
+  <aside class="panel" id="terms-panel" role="dialog" aria-modal="true" aria-labelledby="terms-title" aria-hidden="true" tabindex="-1">
+    <div class="panel__head">
+      <h2 id="terms-title">Términos y condiciones</h2>
+      <button class="panel__close" type="button" data-close-terms aria-label="Cerrar términos y condiciones">&times;</button>
+    </div>
+    <div class="panel__body" id="terms-body">
+<h1 id="tc-privacidad">Política de Privacidad - Maru App</h1>
+<p><em>Última actualización: 15 de octubre de 2026</em></p>
+<p>Este Aviso de Privacidad de <strong>MaruApp</strong> ("nosotros", "nos" o "nuestro") describe cómo y por qué podemos acceder, recopilar, almacenar, usar y/o compartir ("procesar") tu información personal cuando usas nuestros servicios ("Servicios"), incluyendo cuando:</p>
+<ul>
+<li>Descargas y usas nuestra aplicación móvil (MaruApp), o cualquier otra aplicación nuestra que enlace a este Aviso de Privacidad.</li>
+<li>Usas MaruApp. Maru es una herramienta integral diseñada para facilitar la comunicación y el monitoreo en el cuidado de pacientes y familiares. Optimiza la coordinación diaria y mejora la tranquilidad de los cuidadores mediante un entorno seguro y accesible.</li>
+<li>Interactúas con nosotros de otras formas relacionadas, incluyendo cualquier actividad de marketing o eventos.</li>
+</ul>
+<p><strong>¿Preguntas o inquietudes?</strong> Leer este Aviso de Privacidad te ayudará a comprender tus derechos y opciones de privacidad. Nosotros somos responsables de tomar decisiones sobre cómo se procesa tu información personal. Si no estás de acuerdo con nuestras políticas y prácticas, por favor no uses nuestros Servicios. Si aún tienes preguntas o inquietudes, contáctanos en 📧 <strong>kell230023@gmail.com</strong>.</p>
+<hr>
+<h2 id="tc-resumen-de-puntos-clave">Resumen de puntos clave</h2>
+<p>Este resumen presenta los puntos clave de nuestro Aviso de Privacidad. Puedes encontrar más detalles sobre cada tema en las secciones correspondientes de la <a href="#tc-tabla-de-contenido">tabla de contenido</a>.</p>
+<ul>
+<li><strong>¿Qué información personal procesamos?</strong> Cuando visitas, usas o navegas por nuestros Servicios, podemos procesar información personal según la forma en que interactúes con nosotros y con los Servicios, las decisiones que tomes y los productos y funciones que utilices. Más información en <a href="#tc-informacion-personal-que-usted-nos-proporciona">Información personal que nos proporcionas</a>.</li>
+<li><strong>¿Procesamos información personal sensible?</strong> Parte de la información puede considerarse "especial" o "sensible" en ciertas jurisdicciones, por ejemplo, el origen racial o étnico, la orientación sexual y las creencias religiosas. Podemos procesar información personal sensible cuando sea necesario, con tu consentimiento o según lo permita la ley aplicable. Más información en <a href="#tc-informacion-sensible">Información sensible</a>.</li>
+<li><strong>¿Recopilamos información de terceros?</strong> No recopilamos ninguna información de terceros.</li>
+<li><strong>¿Cómo procesamos tu información?</strong> Procesamos tu información para proporcionar, mejorar y administrar nuestros Servicios, comunicarnos contigo, por seguridad y prevención de fraude, y para cumplir con la ley. También podemos procesar tu información para otros fines con tu consentimiento. Solo procesamos tu información cuando tenemos una razón legal válida para hacerlo. Más información en la <a href="#tc-2">sección 2</a>.</li>
+<li><strong>¿En qué situaciones y con qué partes compartimos información personal?</strong> Podemos compartir información en situaciones específicas y con terceros específicos. Más información en la <a href="#tc-3">sección 3</a>.</li>
+<li><strong>¿Cómo mantenemos tu información segura?</strong> Contamos con procesos y procedimientos organizativos y técnicos adecuados para proteger tu información personal. Sin embargo, ninguna transmisión electrónica por internet ni tecnología de almacenamiento de información puede garantizarse como 100 % segura, por lo que no podemos prometer ni garantizar que piratas informáticos, ciberdelincuentes u otros terceros no autorizados no puedan vulnerar nuestra seguridad y recopilar, acceder, robar o modificar indebidamente tu información. Más información en la <a href="#tc-6">sección 6</a>.</li>
+<li><strong>¿Cuáles son tus derechos?</strong> Dependiendo de dónde te encuentres geográficamente, la ley de privacidad aplicable puede otorgarte ciertos derechos con respecto a tu información personal. Más información en la <a href="#tc-8">sección 8</a>.</li>
+<li><strong>¿Cómo ejerces tus derechos?</strong> La forma más sencilla de ejercer tus derechos es enviando una <a href="https://app.termly.io/dsar/9835bcf9-3fb8-4489-b47e-0dc7371b3d20" target="_blank" rel="noopener noreferrer">solicitud de acceso del titular de los datos</a> o contactándonos. Consideraremos y atenderemos cualquier solicitud de acuerdo con las leyes de protección de datos aplicables.</li>
+</ul>
+<p>¿Quieres saber más sobre lo que hacemos con la información que recopilamos? Revisa el Aviso de Privacidad completo a continuación.</p>
+<hr>
+<h2 id="tc-tabla-de-contenido">Tabla de contenido</h2>
+<ol>
+<li><a href="#tc-1">¿Qué información recopilamos?</a></li>
+<li><a href="#tc-2">¿Cómo procesamos su información?</a></li>
+<li><a href="#tc-3">¿Cuándo y con quién compartimos su información personal?</a></li>
+<li><a href="#tc-4">¿Cómo manejamos sus inicios de sesión sociales?</a></li>
+<li><a href="#tc-5">¿Cuánto tiempo conservamos su información?</a></li>
+<li><a href="#tc-6">¿Cómo mantenemos su información segura?</a></li>
+<li><a href="#tc-7">¿Recopilamos información de menores?</a></li>
+<li><a href="#tc-8">¿Cuáles son sus derechos de privacidad?</a></li>
+<li><a href="#tc-9">Controles para las funciones de "No rastrear"</a></li>
+<li><a href="#tc-10">¿Realizamos actualizaciones a este aviso?</a></li>
+<li><a href="#tc-11">¿Cómo puede contactarnos acerca de este aviso?</a></li>
+<li><a href="#tc-12">¿Cómo puede revisar, actualizar o eliminar los datos que recopilamos de usted?</a></li>
+</ol>
+<hr>
+<h2 id="tc-1">1. ¿Qué información recopilamos?</h2>
+<h3 id="tc-informacion-personal-que-usted-nos-proporciona">Información personal que usted nos proporciona</h3>
+<p><em>En resumen: Recopilamos la información personal que usted nos proporciona.</em></p>
+<p>Recopilamos información personal que usted nos proporciona voluntariamente cuando se registra en los Servicios, expresa interés en obtener información sobre nosotros o nuestros productos y Servicios, participa en actividades en los Servicios o se pone en contacto con nosotros de cualquier otra manera.</p>
+<p><strong>Información personal proporcionada por usted.</strong> La información personal que recopilamos depende del contexto de sus interacciones con nosotros y con los Servicios, de las decisiones que tome y de los productos y funciones que utilice. La información personal que recopilamos puede incluir lo siguiente:</p>
+<ul>
+<li>Direcciones de correo electrónico</li>
+<li>Nombres</li>
+<li>Nombres de usuario</li>
+<li>Contraseñas</li>
+</ul>
+<h3 id="tc-informacion-sensible">Información sensible</h3>
+<p>Cuando sea necesario, con su consentimiento o según lo permita la ley aplicable, procesamos las siguientes categorías de información sensible:</p>
+<ul>
+<li>Datos de salud</li>
+</ul>
+<p><strong>Datos de inicio de sesión de redes sociales.</strong> Podemos ofrecerle la opción de registrarse con nosotros utilizando los datos de su cuenta existente de redes sociales, como Facebook, X u otra cuenta de redes sociales. Si decide registrarse de esta manera, recopilaremos cierta información de perfil sobre usted del proveedor de redes sociales, como se describe en la sección <a href="#tc-4">¿Cómo manejamos sus inicios de sesión sociales?</a> más abajo.</p>
+<p><strong>Datos de la aplicación.</strong> Si usa nuestra(s) aplicación(es), también podemos recopilar la siguiente información si usted decide darnos acceso o permiso:</p>
+<ul>
+<li><em>Acceso al dispositivo móvil.</em> Podemos solicitar acceso o permiso a ciertas funciones de su dispositivo móvil, incluyendo la cámara, el almacenamiento y otras funciones. Si desea cambiar nuestro acceso o permisos, puede hacerlo en la configuración de su dispositivo.</li>
+<li><em>Notificaciones push.</em> Podemos solicitar enviarle notificaciones push sobre su cuenta o ciertas funciones de la(s) aplicación(es). Si desea dejar de recibir este tipo de comunicaciones, puede desactivarlas en la configuración de su dispositivo.</li>
+</ul>
+<p>Esta información es necesaria principalmente para mantener la seguridad y el funcionamiento de nuestra(s) aplicación(es), para la resolución de problemas y para nuestros fines internos de análisis e informes.</p>
+<p>Toda la información personal que nos proporcione debe ser verdadera, completa y precisa, y usted debe notificarnos cualquier cambio en dicha información personal.</p>
+<h3 id="tc-google-api">Google API</h3>
+<p>Nuestro uso de la información recibida de las API de Google se ajustará a la <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer">Política de Datos de Usuario de los Servicios de API de Google</a>, incluyendo los <a href="https://developers.google.com/terms/api-services-user-data-policy#limited-use" target="_blank" rel="noopener noreferrer">requisitos de Uso Limitado</a>.</p>
+<hr>
+<h2 id="tc-2">2. ¿Cómo procesamos su información?</h2>
+<p><em>En resumen: Procesamos su información para proporcionar, mejorar y administrar nuestros Servicios, comunicarnos con usted, por seguridad y prevención de fraude, y para cumplir con la ley. También podemos procesar su información para otros fines con su consentimiento.</em></p>
+<p><strong>Procesamos su información personal por diversas razones, dependiendo de cómo interactúe con nuestros Servicios, incluyendo:</strong></p>
+<ul>
+<li><strong>Para facilitar la creación de cuentas y la autenticación, y administrar de otro modo las cuentas de usuario.</strong> Podemos procesar su información para que pueda crear su cuenta e iniciar sesión, así como para mantener su cuenta en funcionamiento.</li>
+<li><strong>Para habilitar las comunicaciones entre usuarios.</strong> Podemos procesar su información si decide usar cualquiera de nuestras ofertas que permitan la comunicación con otro usuario.</li>
+</ul>
+<hr>
+<h2 id="tc-3">3. ¿Cuándo y con quién compartimos su información personal?</h2>
+<p><em>En resumen: Podemos compartir información en situaciones específicas descritas en esta sección y/o con los siguientes terceros.</em></p>
+<p>Podemos necesitar compartir su información personal en las siguientes situaciones:</p>
+<ul>
+<li><strong>Transferencias comerciales.</strong> Podemos compartir o transferir su información en relación con, o durante las negociaciones de, cualquier fusión, venta de activos de la empresa, financiamiento o adquisición de la totalidad o una parte de nuestro negocio por parte de otra empresa.</li>
+</ul>
+<hr>
+<h2 id="tc-4">4. ¿Cómo manejamos sus inicios de sesión sociales?</h2>
+<p><em>En resumen: Si decide registrarse o iniciar sesión en nuestros Servicios usando una cuenta de redes sociales, es posible que tengamos acceso a cierta información sobre usted.</em></p>
+<p>Nuestros Servicios le ofrecen la posibilidad de registrarse e iniciar sesión usando los datos de su cuenta de redes sociales de terceros (como sus inicios de sesión de Facebook o X). Cuando decida hacerlo, recibiremos cierta información de perfil sobre usted de su proveedor de redes sociales. La información de perfil que recibimos puede variar según el proveedor de redes sociales, pero a menudo incluirá su nombre, dirección de correo electrónico, lista de amigos y foto de perfil, así como otra información que usted decida hacer pública en dicha plataforma de redes sociales.</p>
+<p>Usaremos la información que recibamos únicamente para los fines descritos en este Aviso de Privacidad o que se le hayan aclarado de otro modo en los Servicios correspondientes. Tenga en cuenta que no controlamos, ni somos responsables de, otros usos de su información personal por parte de su proveedor de redes sociales de terceros. Le recomendamos que revise el aviso de privacidad de dicho proveedor para entender cómo recopila, usa y comparte su información personal, y cómo puede configurar sus preferencias de privacidad en sus sitios y aplicaciones.</p>
+<hr>
+<h2 id="tc-5">5. ¿Cuánto tiempo conservamos su información?</h2>
+<p><em>En resumen: Conservamos su información durante el tiempo necesario para cumplir los fines descritos en este Aviso de Privacidad, a menos que la ley exija lo contrario.</em></p>
+<p>Solo conservaremos su información personal durante el tiempo que sea necesario para los fines establecidos en este Aviso de Privacidad, a menos que la ley exija o permita un período de retención más largo (como requisitos fiscales, contables u otros requisitos legales). Ningún fin de este aviso requerirá que conservemos su información personal durante más tiempo que el período en que los usuarios tienen una cuenta con nosotros.</p>
+<p>Cuando no tengamos una necesidad comercial legítima continua de procesar su información personal, la eliminaremos o anonimizaremos o, si esto no es posible (por ejemplo, porque su información personal se ha almacenado en archivos de respaldo), la almacenaremos de forma segura y la aislaremos de cualquier procesamiento posterior hasta que sea posible eliminarla.</p>
+<hr>
+<h2 id="tc-6">6. ¿Cómo mantenemos su información segura?</h2>
+<p><em>En resumen: Nuestro objetivo es proteger su información personal mediante un sistema de medidas de seguridad organizativas y técnicas.</em></p>
+<p>Hemos implementado medidas de seguridad técnicas y organizativas apropiadas y razonables, diseñadas para proteger la seguridad de la información personal que procesamos. Sin embargo, a pesar de nuestras salvaguardas y esfuerzos por proteger su información, ninguna transmisión electrónica por internet ni tecnología de almacenamiento de información puede garantizarse como 100 % segura, por lo que no podemos prometer ni garantizar que piratas informáticos, ciberdelincuentes u otros terceros no autorizados no puedan vulnerar nuestra seguridad y recopilar, acceder, robar o modificar indebidamente su información. Aunque haremos todo lo posible por proteger su información personal, la transmisión de información personal hacia y desde nuestros Servicios es bajo su propio riesgo. Debe acceder a los Servicios únicamente en un entorno seguro.</p>
+<hr>
+<h2 id="tc-7">7. ¿Recopilamos información de menores?</h2>
+<p><em>En resumen: No recopilamos a sabiendas datos de menores de 18 años ni les dirigimos publicidad.</em></p>
+<p>No recopilamos a sabiendas datos de menores de 18 años, ni les solicitamos datos ni les dirigimos publicidad, ni vendemos a sabiendas dicha información personal. Al usar los Servicios, usted declara que tiene al menos 18 años o que es el padre, madre o tutor de un menor y consiente el uso de los Servicios por parte de dicho menor dependiente. Si nos enteramos de que se ha recopilado información personal de usuarios menores de 18 años, desactivaremos la cuenta y tomaremos medidas razonables para eliminar con prontitud dichos datos de nuestros registros. Si tiene conocimiento de algún dato que podamos haber recopilado de niños menores de 18 años, contáctenos en 📧 <strong>kell230023@gmail.com</strong>.</p>
+<hr>
+<h2 id="tc-8">8. ¿Cuáles son sus derechos de privacidad?</h2>
+<p><em>En resumen: Usted puede revisar, cambiar o cancelar su cuenta en cualquier momento, dependiendo de su país, provincia o estado de residencia.</em></p>
+<p><strong>Retirar su consentimiento:</strong> Si nos basamos en su consentimiento para procesar su información personal, que puede ser expreso y/o implícito según la ley aplicable, usted tiene derecho a retirar su consentimiento en cualquier momento. Puede hacerlo contactándonos con los datos de contacto proporcionados en la sección <a href="#tc-11">¿Cómo puede contactarnos acerca de este aviso?</a> más abajo.</p>
+<p>Sin embargo, tenga en cuenta que esto no afectará la legalidad del procesamiento realizado antes de su retiro ni, cuando la ley aplicable lo permita, afectará el procesamiento de su información personal realizado con base en fundamentos legales de procesamiento distintos del consentimiento.</p>
+<h3 id="tc-informacion-de-la-cuenta">Información de la cuenta</h3>
+<p>Si en algún momento desea revisar o cambiar la información de su cuenta o cancelar su cuenta, puede:</p>
+<ul>
+<li>Contactarnos usando la información de contacto proporcionada.</li>
+</ul>
+<p>Previa solicitud de cancelación de su cuenta, desactivaremos o eliminaremos su cuenta y su información de nuestras bases de datos activas. Sin embargo, podemos conservar cierta información en nuestros archivos para prevenir fraudes, solucionar problemas, colaborar en cualquier investigación, hacer cumplir nuestros términos legales y/o cumplir con los requisitos legales aplicables.</p>
+<p>Si tiene preguntas o comentarios sobre sus derechos de privacidad, puede enviarnos un correo electrónico a 📧 <strong>kell230023@gmail.com</strong>.</p>
+<hr>
+<h2 id="tc-9">9. Controles para las funciones de "No rastrear"</h2>
+<p>La mayoría de los navegadores web y algunos sistemas operativos móviles y aplicaciones móviles incluyen una función o configuración de "No rastrear" ("DNT") que puede activar para indicar su preferencia de privacidad de que no se supervisen ni recopilen datos sobre sus actividades de navegación en línea. En esta etapa, no se ha finalizado ningún estándar tecnológico uniforme para reconocer e implementar las señales DNT. Por lo tanto, actualmente no respondemos a las señales DNT del navegador ni a ningún otro mecanismo que comunique automáticamente su decisión de no ser rastreado en línea. Si se adopta un estándar para el rastreo en línea que debamos seguir en el futuro, le informaremos sobre esa práctica en una versión revisada de este Aviso de Privacidad.</p>
+<hr>
+<h2 id="tc-10">10. ¿Realizamos actualizaciones a este aviso?</h2>
+<p><em>En resumen: Sí, actualizaremos este aviso según sea necesario para mantener el cumplimiento de las leyes pertinentes.</em></p>
+<p>Podemos actualizar este Aviso de Privacidad de vez en cuando. La versión actualizada se indicará con una fecha de "Revisado" actualizada en la parte superior de este Aviso de Privacidad. Si realizamos cambios sustanciales en este Aviso de Privacidad, podemos notificárselo publicando de forma destacada un aviso de dichos cambios o enviándole directamente una notificación. Le recomendamos que revise este Aviso de Privacidad con frecuencia para estar informado sobre cómo protegemos su información.</p>
+<hr>
+<h2 id="tc-11">11. ¿Cómo puede contactarnos acerca de este aviso?</h2>
+<p>Si tiene preguntas o comentarios sobre este aviso, puede enviarnos un correo electrónico o contactarnos por correo postal:</p>
+<p>📧 <strong>Correo electrónico:</strong> kell230023@gmail.com</p>
+<p>📍 <strong>Dirección postal:</strong></p>
+<p>MaruApp<br />
+01av 4A-25 zona 3 Salcajá Quetzaltenango<br />
+Salcajá 09002<br />
+Guatemala</p>
+<hr>
+<h2 id="tc-12">12. ¿Cómo puede revisar, actualizar o eliminar los datos que recopilamos de usted?</h2>
+<p>Usted tiene derecho a solicitar acceso a la información personal que recopilamos de usted, detalles sobre cómo la hemos procesado, corregir inexactitudes o eliminar su información personal. También puede tener derecho a retirar su consentimiento para nuestro procesamiento de su información personal. Estos derechos pueden estar limitados en algunas circunstancias por la ley aplicable.</p>
+<p>Para solicitar revisar, actualizar o eliminar su información personal, por favor complete y envíe una <a href="https://app.termly.io/dsar/9835bcf9-3fb8-4489-b47e-0dc7371b3d20" target="_blank" rel="noopener noreferrer">solicitud de acceso del titular de los datos</a>.</p>
+<hr>
+<p><em>Esta Política de Privacidad fue creada utilizando el <a href="https://termly.io/products/privacy-policy-generator/" target="_blank" rel="noopener noreferrer">Generador de Políticas de Privacidad de Termly</a>.</em></p>
+<h1 id="tc-soporte">Soporte Técnico - Maru App</h1>
+<p>¿Necesitas ayuda con la aplicación Maru? Estamos aquí para ayudarte.</p>
+<h2 id="tc-contacto">Contacto</h2>
+<p>Si tienes dudas, problemas técnicos, o necesitas reportar algún fallo con la aplicación, puedes ponerte en contacto directamente con el desarrollador a través del siguiente correo electrónico:</p>
+<p>📧 <strong>Correo de soporte:</strong> kramirezg20@miumg.edu.gt</p>
+<h2 id="tc-politica-de-privacidad-y-preguntas-frecuentes">Política de Privacidad y Preguntas Frecuentes</h2>
+<ul>
+<li>La aplicación requiere autenticación para garantizar la seguridad de tus datos.</li>
+</ul>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
