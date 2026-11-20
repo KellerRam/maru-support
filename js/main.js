@@ -1,12 +1,7 @@
 (function () {
   'use strict';
-
-  /* ===== Enlaces de descarga =====
-     Android: descarga directa del APK, alojado como archivo de un "Release" de GitHub
-     (el APK pesa más de 100 MB y no puede subirse al repositorio normal).
-     iOS: ficha de la App Store. */
   var STORE_LINKS = {
-    android: 'https://github.com/KellerRam/maru-support/releases/latest/download/app-release.apk',
+    android: 'https://github.com/KellerRam/maru-support/releases/download/v1.0.1/MaruAppv1.0.1.apk',
     ios: 'https://apps.apple.com/ca/app/maruapp/id6817173952'
   };
 
