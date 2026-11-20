@@ -2,33 +2,23 @@
   'use strict';
 
   /* ===== Enlaces de descarga =====
-     Reemplaza estas URLs cuando la app esté publicada.
-     Mientras valgan "", el botón muestra un aviso en lugar de abrir un enlace roto. */
+     Android: descarga directa del APK, alojado como archivo de un "Release" de GitHub
+     (el APK pesa más de 100 MB y no puede subirse al repositorio normal).
+     iOS: ficha de la App Store. */
   var STORE_LINKS = {
-    android: '', // ej. https://play.google.com/store/apps/details?id=...
-    ios: 'https://apps.apple.com/ca/app/maruapp/id6817173952'      // ej. https://apps.apple.com/app/id...
+    android: 'https://github.com/KellerRam/maru-support/releases/latest/download/app-release.apk',
+    ios: 'https://apps.apple.com/ca/app/maruapp/id6817173952'
   };
-
-  var toast = document.getElementById('toast');
-  var toastTimer;
-  function showToast(msg) {
-    toast.textContent = msg;
-    toast.classList.add('show');
-    clearTimeout(toastTimer);
-    toastTimer = setTimeout(function () { toast.classList.remove('show'); }, 3200);
-  }
 
   document.querySelectorAll('[data-store]').forEach(function (a) {
     var url = STORE_LINKS[a.dataset.store];
-    if (url) {
-      a.href = url;
+    if (!url) return;
+    a.href = url;
+    if (a.dataset.store === 'android') {
+      a.setAttribute('download', 'MaruApp.apk'); // inicia la descarga sin abrir otra página
+    } else {
       a.target = '_blank';
       a.rel = 'noopener noreferrer';
-    } else {
-      a.addEventListener('click', function (e) {
-        e.preventDefault();
-        showToast('¡Muy pronto disponible para ' + (a.dataset.store === 'ios' ? 'iOS' : 'Android') + '!');
-      });
     }
   });
 

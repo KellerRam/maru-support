@@ -116,10 +116,6 @@ h1{font:600 clamp(2.3rem,5.4vw,4.1rem)/1.04 var(--font-title);letter-spacing:-.0
 .panel__body hr{border:0;height:1px;background:var(--bg-deep);margin:1.6rem 0}
 .panel__body em{color:var(--muted)}
 
-/* ===== Aviso ===== */
-.toast{position:fixed;left:50%;bottom:1.5rem;transform:translate(-50%,150%);background:var(--ink);color:#fff;
-  padding:.85rem 1.4rem;border-radius:999px;font-weight:600;z-index:200;transition:transform .3s;max-width:90vw;text-align:center;opacity:0;visibility:hidden}
-.toast.show{transform:translate(-50%,0);opacity:1;visibility:visible}
 
 /* ===== Responsive ===== */
 @media (max-width:860px){
@@ -160,7 +156,6 @@ h1{font:600 clamp(2.3rem,5.4vw,4.1rem)/1.04 var(--font-title);letter-spacing:-.0
   .chip--b{top:4%;right:0}
   .panel__head{padding:1rem}
   .panel__body{padding:1.2rem 1rem 3rem}
-  .toast{width:calc(100% - 2rem)}
 }
 @media (max-width:360px){
   .brand{font-size:1.1rem}
